@@ -1,0 +1,197 @@
+.wrapper1{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    /*
+    grid-column-gap:1em;
+    grid-row-gap:1em;
+    
+    grid-gap:1em;
+    */
+}
+
+/* wrapper 1*/
+.wrapper1 .para1{
+    color: rgb(0, 0, 0); 
+}
+
+.wrapper1 .para2{
+    color: white; 
+}
+
+.wrapper1 > div{
+    background:rgb(28, 10, 77);
+    padding:2em;
+}
+.wrapper1 > div:nth-child(odd){
+    background:#ddd;
+}
+
+
+
+/* wrapper 2*/
+.wrapper2{
+    background-image: url('/dist/img/image7_2.jpg');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 500px;
+    /*
+    grid-column-gap:1em;
+    grid-row-gap:1em;
+    
+    grid-gap:1em;
+    */
+}
+.wrapper2 .para1{
+    h1{
+        text-align: center;
+        color: rgb(12, 27, 112); 
+        font-weight: bold;
+        font-size: 50px;
+        text-transform: uppercase;
+        padding-bottom: 5%;
+    }
+    hr{
+        align: center;
+    }
+    p{
+        text-align: center;
+        padding-top: 10%;
+        padding-bottom: 5%;
+        color: rgb(0, 0, 0); 
+    }
+}
+
+
+
+/*Neo Light Button*/
+.wrapper2 .button > a {
+    position: relative;
+    display: inline;
+    text-align: center;
+    padding: 15px 30px;
+    color: rgb(28, 10, 77);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 20px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+.wrapper2 .button{
+    margin: 0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+}
+.wrapper2 .button > a:hover {
+    color:white;
+    background: rgb(28, 10, 77);
+    /*box-shadow: 0 0 4px rgb(28, 10, 77), 0 0 34px rgb(28, 10, 77), 0 0 74px rgb(28, 10, 77);*/
+    transition-delay: 0.25s;
+}
+.wrapper2 .button > a span{
+    position:absolute;
+    display: block;
+}
+.wrapper2 .button > a span:nth-child(1){
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,rgb(28, 10, 77));
+    animation: animate1 1s linear infinite;
+}
+@keyframes animate1
+{
+    0%{
+        left: -100%;
+    }
+    50%, 100%{
+        left: 100%;
+    }
+}
+
+.wrapper2 .button > a span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,rgb(28, 10, 77));
+    animation: animate2 1s linear infinite;
+    animation-delay: 0.25s;
+}
+@keyframes animate2
+{
+    0%{
+        top: -100%;
+    }
+    50%, 100%{
+        top: 100%;
+    }
+}
+
+
+.wrapper2 .button > a span:nth-child(3){
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,rgb(28, 10, 77));
+    animation: animate3 1s linear infinite;
+    animation-delay: 0.5s;
+}
+@keyframes animate3
+{
+    0%{
+        right: -100%;
+    }
+    50%, 100%{
+        right: 100%;
+    }
+}
+
+
+.wrapper2 .button > a span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,rgb(28, 10, 77));
+    animation: animate4 1s linear infinite;
+    animation-delay: 0.75s;
+}
+@keyframes animate4
+{
+    0%{
+        bottom: -100%;
+    }
+    50%, 100%{
+        bottom: 100%;
+    }
+}
+/*End Neo Light Button*/
+
+
+.wrapper2 > div{
+    padding:2em;
+    padding-top: 10vh;
+}
+
+.line {
+    border: 4px solid rgb(255, 251, 2);
+    max-width: 20%;
+    margin: auto;
+    
+}
+
+
+
+
+
+
+
