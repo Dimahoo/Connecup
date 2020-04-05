@@ -52,10 +52,19 @@
     background: linear-gradient(45deg,rgb(12, 27, 112),rgb(78, 100, 226)); 
     color:white;
     text-align: center;
+    transform-style: preserve-3d;
+}
+
+.card .front .ftitle{
+    transform: translateZ(100px);
+}
+.card .back .btitle{
+    transform: translateZ(100px);
 }
 
 .card .back{
-    background: linear-gradient(45deg,rgb(12, 27, 112),rgb(78, 100, 226));  
-    color:white;
+    background: linear-gradient(45deg,rgb(158, 169, 233),rgb(204, 209, 236));  
+    color:rgb(0, 0, 0);
     transform: rotateY(180deg);
+    transform-style: preserve-3d;
 }

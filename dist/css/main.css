@@ -229,13 +229,27 @@
   background: linear-gradient(45deg, #0c1b70, #4e64e2);
   color: white;
   text-align: center;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+.card .front .ftitle {
+  -webkit-transform: translateZ(100px);
+          transform: translateZ(100px);
+}
+
+.card .back .btitle {
+  -webkit-transform: translateZ(100px);
+          transform: translateZ(100px);
 }
 
 .card .back {
-  background: linear-gradient(45deg, #0c1b70, #4e64e2);
-  color: white;
+  background: linear-gradient(45deg, #9ea9e9, #ccd1ec);
+  color: black;
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
 }
 
 .wrapper1 {
@@ -682,10 +696,10 @@
     font-size: 2rem;
     color: #01036d;
     background: #fff;
-    -webkit-transition: opacity .8s .5s, -webkit-clip-path 1s .5s;
-    transition: opacity .8s .5s, -webkit-clip-path 1s .5s;
-    transition: opacity .8s .5s, clip-path 1s .5s;
-    transition: opacity .8s .5s, clip-path 1s .5s, -webkit-clip-path 1s .5s;
+    -webkit-transition: opacity .8s .5s, -webkit-clip-path 1s .5s;
+    transition: opacity .8s .5s, -webkit-clip-path 1s .5s;
+    transition: opacity .8s .5s, clip-path 1s .5s;
+    transition: opacity .8s .5s, clip-path 1s .5s, -webkit-clip-path 1s .5s;
     -webkit-clip-path: circle(200px at top right);
             clip-path: circle(200px at top right);
   }
