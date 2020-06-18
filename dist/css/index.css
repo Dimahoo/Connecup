@@ -297,8 +297,8 @@
   display: grid;
   -ms-grid-columns: 50% 50%;
       grid-template-columns: 50% 50%;
-  -ms-grid-rows: 500px;
-      grid-template-rows: 500px;
+  -ms-grid-rows: 640px;
+      grid-template-rows: 640px;
   /*
     grid-column-gap:1em;
     grid-row-gap:1em;
@@ -523,7 +523,7 @@
 
 .carousel-caption {
   top: 37%;
-  font-size: 100px;
+  font-size: 55px;
   font-weight: bold;
   height: auto;
   max-height: 120px;
@@ -706,10 +706,10 @@
     font-size: 2rem;
     color: #01036d;
     background: #fff;
-    -webkit-transition: opacity .8s .5s, -webkit-clip-path 1s .5s;
-    transition: opacity .8s .5s, -webkit-clip-path 1s .5s;
-    transition: opacity .8s .5s, clip-path 1s .5s;
-    transition: opacity .8s .5s, clip-path 1s .5s, -webkit-clip-path 1s .5s;
+    -webkit-transition: opacity .8s .5s, -webkit-clip-path 1s .5s;
+    transition: opacity .8s .5s, -webkit-clip-path 1s .5s;
+    transition: opacity .8s .5s, clip-path 1s .5s;
+    transition: opacity .8s .5s, clip-path 1s .5s, -webkit-clip-path 1s .5s;
     -webkit-clip-path: circle(200px at top right);
             clip-path: circle(200px at top right);
   }
