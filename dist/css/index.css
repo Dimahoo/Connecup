@@ -254,6 +254,13 @@
           transform-style: preserve-3d;
 }
 
+/* wrapper 0*/
+.wrapper0 {
+  background: #2B3990;
+  height: 70px;
+}
+
+/* wrapper 1*/
 .wrapper1 {
   display: -ms-grid;
   display: grid;
@@ -501,6 +508,79 @@
   margin: auto;
 }
 
+/* wrapper 3*/
+.wrapper3 {
+  background-image: url("/dist/img/About_us_wallpaper.jpg");
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  -ms-grid-rows: 640px;
+      grid-template-rows: 640px;
+}
+
+.wrapper3 .para1 h1 {
+  margin-top: 70px;
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 50px;
+  text-transform: uppercase;
+  padding-bottom: 5%;
+  margin-left: 20px;
+  margin-right: 100px;
+}
+
+.wrapper3 .para1 hr {
+  align: center;
+  margin-left: 350px;
+}
+
+.wrapper3 .para1 .intro {
+  text-align: center;
+  padding-top: 5%;
+  color: #ffffff;
+  margin-left: 20px;
+  margin-right: 100px;
+  font-size: 20px;
+}
+
+.wrapper3 .para1 p {
+  text-align: center;
+  color: #ffffff;
+  margin-left: 20px;
+  margin-right: 100px;
+  font-size: 20px;
+}
+
+/* wrapper 4*/
+.wrapper4 {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 30px;
+  -ms-grid-columns: ()[auto-fill];
+      grid-template-columns: repeat(auto-fill);
+  background-color: #fff;
+  color: #444;
+}
+
+.box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 20px;
+  padding: 100px;
+  font-size: 150%;
+  text-align: center;
+}
+
+.a {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 6;
+  grid-column: 1 / 7;
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+
 .carousel-inner > .carousel-item > img {
   max-height: 100vh;
 }
@@ -706,10 +786,10 @@
     font-size: 2rem;
     color: #01036d;
     background: #fff;
-    -webkit-transition: opacity .8s .5s, -webkit-clip-path 1s .5s;
-    transition: opacity .8s .5s, -webkit-clip-path 1s .5s;
-    transition: opacity .8s .5s, clip-path 1s .5s;
-    transition: opacity .8s .5s, clip-path 1s .5s, -webkit-clip-path 1s .5s;
+    -webkit-transition: opacity .8s .5s, -webkit-clip-path 1s .5s;
+    transition: opacity .8s .5s, -webkit-clip-path 1s .5s;
+    transition: opacity .8s .5s, clip-path 1s .5s;
+    transition: opacity .8s .5s, clip-path 1s .5s, -webkit-clip-path 1s .5s;
     -webkit-clip-path: circle(200px at top right);
             clip-path: circle(200px at top right);
   }
