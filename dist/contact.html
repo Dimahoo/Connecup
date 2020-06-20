@@ -10,10 +10,11 @@
   <link rel="stylesheet" href="css/aos.css" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <script src="js/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
-  <script src="js/bootstrap.min.js" crossorigin="anonymous"></script>
+  <script src="js/jquery/3.3.1/jquery.slim.min.js" crossorigin="anonymous"></script>
+  <script src="js/bootstrap/3.3.0/bootstrap.min.js" crossorigin="anonymous"></script>
   <script src="js/popper.min.js" crossorigin="anonymous"></script>
   <script src="js/aos.js" crossorigin="anonymous"></script>
+  <script src="js/email.js" crossorigin="anonymous"></script>
   <title>Contact</title>
 </head>
 
@@ -84,7 +85,7 @@
         <div class="formBox">
 
 
-          <form>
+          <form action="https://formspree.io/direction@connecup.com" method="POST">
             <div class="form-row">
               <div class="form-group col-sm-12">
                 <h1 data-aos="flip-up">Get in Touch With Us</h1>
@@ -94,35 +95,37 @@
             <div class="form-row">
               <div data-aos="fade-right" class="form-group col-sm-6">
                 <label for="inputFName">First Name</label>
-                <input type="text" class="form-control" required>
+                <input type="text" name="firstName" class="firstName form-control">
               </div>
               <div data-aos="fade-left" class="form-group col-sm-6">
                 <label for="inputLName">Last Name</label>
-                <input type="text" class="form-control">
+                <input type="text" name="lastName" class="lastName form-control">
               </div>
             </div>
             <div class="form-row">
               <div data-aos="fade-right" class="form-group col-sm-6">
                 <label for="inputEmail">Email</label>
-                <input type="text" class="form-control" required>
+                <input type="text" name="email" class="email form-control">
               </div>
               <div data-aos="fade-left" class="form-group col-sm-6">
                 <label for="inputMobile">Mobile</label>
-                <input type="text" class="form-control">
+                <input type="text" name="phone" class="phone form-control">
               </div>
             </div>
             <div class="form-row">
               <div data-aos="flip-down" class="form-group col-sm-12">
                 <label for="Message">Message</label>
-                <textarea class="form-control" rows="3"></textarea>
+                <textarea name="message "class="message form-control" rows="3"></textarea>
               </div>
+            </div>
+            <div class="status">
+
             </div>
             <div class="form-row">
               <div data-aos="zoom-in" class="form-group col-sm-12">
-                <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                <button type="submit" class="submit btn btn-primary btn-block">Send Message</button>
               </div>
             </div>
-
           </form>
 
 
