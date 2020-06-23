@@ -225,13 +225,14 @@
     hr{
         align: center; 
     }
-    .intro{
+    .qsn{
         text-align: center;
         padding-top: 5%;
         color: #ffffff;
         font-size: 20px;
     }
     p{
+        padding-top: 5%;
         text-align: center;
         color: #ffffff;
         font-size: 20px;
@@ -242,8 +243,6 @@
     position: relative;
     top: 30%;
     left: 30%;
-
-    
 }
 
 /* wrapper 4*/
@@ -285,5 +284,96 @@
         grid-row: 1;
     }
 
+/* wrapper 5*/
+.wrapper5{
+    background-image: url('/dist/img/About_us_wallpaper_3.jpg');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 400px;
+}
+    
+.wrapper5 .para1{
+    h1{
+        margin-top: 70px;
+        text-align: center;
+        color: #ffffff; 
+        font-weight: bold;
+        font-size: 50px;
+        text-transform: uppercase;
+        padding-bottom: 5%;
+    }
+    hr{
+        align: center; 
+    }
+    .qsn{
+        text-align: center;
+        padding-top: 5%;
+        color: #ffffff;
+        font-size: 20px;
+    }
+    p{
+        padding-top: 5%;
+        text-align: center;
+        color: #ffffff;
+        font-size: 20px;
+    }
+}
+    
+.wrapper5 .para2 .team{
+    position: relative;
+    top: 20%;
+    left: 30%;
+}
+
+/* wrapper 6*/
+.wrapper6{
+    background-image: url('/dist/img/About_us_wallpaper_3.jpg');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 400px;
+    }
+        
+.wrapper6 .para1{
+        h1{
+            margin-top: 70px;
+            text-align: center;
+            color: #ffffff; 
+            font-weight: bold;
+            font-size: 50px;
+            text-transform: uppercase;
+            padding-bottom: 5%;
+        }
+        hr{
+            align: center; 
+        }
+        .qsn{
+            text-align: center;
+            padding-top: 5%;
+            color: #ffffff;
+            font-size: 20px;
+        }
+        p{
+            padding-top: 5%;
+            text-align: center;
+            color: #ffffff;
+            font-size: 20px;
+        }
+    }
+        
+.wrapper6 .para2 .team{
+    position: relative;
+    top: 20%;
+    left: 40%;
+}
 
 
