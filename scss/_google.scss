@@ -24,8 +24,6 @@
     margin-top: 30px;
 }
 
-.msg 
-
 @media only screen and (max-width:500px) {
     /* For mobile phones: */
     .msg{
@@ -38,42 +36,4 @@
     .msg{
         height: 900px;
     }
-}
-
-.wrapper1{
-    display:grid;
-    grid-template-columns: 33.33% 33.33% 33.33%;
-    /*
-    grid-column-gap:1em;
-    grid-row-gap:1em;
-    
-    grid-gap:1em;
-    */
-}
-
-/* wrapper 1*/
-.wrapper1 .para1{
-    color: rgb(0, 0, 0); 
-}
-
-
-.wrapper1 .para2{
-    color: white; 
-}
-
-.wrapper1 h1{
-    font-weight: bold;
-}
-
-.wrapper1 > div{
-    background:#2B3990;
-    padding:2em;
-}
-.wrapper1 > div:nth-child(odd){
-    background:#ddd;
-}
-
-.line {
-    border: 2px solid rgb(255, 251, 2);
-    max-width: 20%;
 }

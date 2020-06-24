@@ -378,7 +378,7 @@
         background-repeat: no-repeat;
         background-attachment: fixed;
         display: grid;
-        grid-template-columns: repeat(7, 1fr ) ;
+        grid-template-columns: repeat(7, 1fr );
         grid-template-rows: 200px;
     }
     .box1 {
@@ -610,15 +610,66 @@
             color: #ffffff;
             font-size: 20px;
         }
-    }
-        
+    }     
     .wrapper6 .para2 .fly{
         position: relative;
         top: 30%;
         left: 30%;
         width: 100px;
         height: 100px;
+    }
 }
+
+/* wrapper 7*/
+.wrapper7{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr );
+}
+
+
+.wrapper7 .para1{
+    color: rgb(0, 0, 0); 
+    p{
+        margin-top: 20px;
+    }
+}
+.wrapper7 .para2{
+    color: white;
+    p{
+        margin-top: 20px;
+    } 
+}
+.wrapper7 .para3{
+    color: rgb(0, 0, 0); 
+    p{
+        margin-top: 20px;
+    }
+}
+.wrapper7 h1{
+    font-weight: bold;
+}
+
+.wrapper7 > div{
+    background:#2B3990;
+    padding:2em;
+}
+.wrapper7 > div:nth-child(odd){
+    background:#ddd;
+}
+
+.wrapper7 .line {
+    border: 2px solid rgb(255, 251, 2);
+    max-width: 20%;
+    align: left;
+    width: 50%;
+}
+
+@media screen and (max-width: 767px) {
+
+    .wrapper7{
+        display:grid;
+        grid-template-columns: repeat(1, 1fr );
+    }
 }
 
 
