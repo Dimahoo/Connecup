@@ -23,12 +23,8 @@
     height: 54px;
   }
 
-  .collabse-nav-link ul {
-    display: none;   
-  }
-
-  .nav-links .nav-link:hover .collabse-nav-link ul {
-    display: inline;
+  .collabse-nav-link {
+    display: none;
     bottom: 10;
     position: absolute;
     margin-top: 10px; 
@@ -45,12 +41,20 @@
         line-height: 50px;
       }
     }
+    .contact {
+      margin-top: initial;
+    }
+  } 
+
+  .nav-links .nav-link:hover .collabse-nav-link {
+    display: block;
   }
 
-  .collabse-nav-link ul li:hover  {
+  .collabse-nav-link li:hover  {
     background-color: #2B3990;
     color: #fff;
   }
+  
 
   .nav-links {
     display: flex;
@@ -74,7 +78,7 @@
 
       a {
         margin: .2rem;
-        padding: 1rem .5rem;
+        padding: 0.5rem .4rem;
       }
       a:not(.sub):hover {
         background: rgba(255,255,255, 0.2);
