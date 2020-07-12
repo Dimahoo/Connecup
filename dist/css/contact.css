@@ -36,7 +36,7 @@
   display: none;
   bottom: 10;
   position: absolute;
-  margin-top: 10px;
+  margin-top: 6px;
   margin-left: 3px;
   margin-bottom: 10px;
   background-color: white;
@@ -914,8 +914,8 @@
     position: relative;
     top: 30%;
     left: 30%;
-    width: 10px;
-    height: 10px;
+    width: 100px;
+    height: 70px;
   }
 }
 
@@ -1482,4 +1482,3 @@ body {
   position: relative;
   height: 699px;
 }
-/*# sourceMappingURL=contact.css.map */
