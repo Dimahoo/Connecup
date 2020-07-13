@@ -1022,6 +1022,285 @@
   }
 }
 
+/* wrapper 8*/
+.wrapper8 {
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 300px;
+      grid-template-rows: 300px;
+}
+
+.wrapper8 .para1 h1 {
+  margin-top: 50px;
+  text-align: left;
+  color: #2B3990;
+  font-weight: bold;
+  font-size: 50px;
+  margin-left: 20%;
+}
+
+.wrapper8 .para1 hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 3px solid #fffb02;
+  margin: 1em 0;
+  padding: 0;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.wrapper8 .para1 .qsn {
+  text-align: left;
+  color: #000000;
+  font-size: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.wrapper8 .para1 p {
+  text-align: center;
+  color: #ffffff;
+  font-size: 20px;
+  margin-right: 20%;
+}
+
+/* wrapper 9*/
+.wrapper9 {
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  -ms-grid-rows: 480px;
+      grid-template-rows: 480px;
+}
+
+.wrapper9 .para1 h2 {
+  margin-top: 20px;
+  text-align: center;
+  color: #000000;
+  font-weight: bold;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-left: 40%;
+}
+
+.wrapper9 .para1 p {
+  padding-top: 2%;
+  text-align: center;
+  color: #000000;
+  font-size: 20px;
+  margin-left: 50%;
+  margin-right: 10%;
+}
+
+.wrapper9 .para1 .serv {
+  position: relative;
+  top: 10%;
+  left: 30%;
+  width: 200px;
+  height: 200px;
+  margin-left: 30%;
+}
+
+.wrapper9 .para2 h2 {
+  margin-top: 20px;
+  text-align: center;
+  color: #000000;
+  font-weight: bold;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-right: 40%;
+}
+
+.wrapper9 .para2 p {
+  padding-top: 2%;
+  text-align: center;
+  color: #000000;
+  font-size: 20px;
+  margin-left: 10%;
+  margin-right: 50%;
+}
+
+.wrapper9 .para2 .serv {
+  position: relative;
+  top: 10%;
+  width: 200px;
+  height: 200px;
+  margin-left: 20%;
+}
+
+/* wrapper 10*/
+.wrapper10 {
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  -ms-grid-rows: 200px;
+      grid-template-rows: 200px;
+}
+
+/*Neo Light Button*/
+.wrapper10 .para1 .button > a {
+  position: relative;
+  display: inline;
+  text-align: center;
+  padding: 15px 30px;
+  margin-left: 40%;
+  color: #2B3990;
+  background-color: #ddd;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 20px;
+  overflow: hidden;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.wrapper10 .para2 .button > a {
+  position: relative;
+  display: inline;
+  text-align: center;
+  padding: 15px 30px;
+  margin-right: 40%;
+  color: #2B3990;
+  background-color: #ddd;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 20px;
+  overflow: hidden;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.wrapper10 .button {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrapper10 .button > a:hover {
+  color: white;
+  background: #2B3990;
+  /*box-shadow: 0 0 4px rgb(28, 10, 77), 0 0 34px rgb(28, 10, 77), 0 0 74px rgb(28, 10, 77);*/
+  -webkit-transition-delay: 0.25s;
+          transition-delay: 0.25s;
+}
+
+.wrapper10 .button > a span {
+  position: absolute;
+  display: block;
+}
+
+.wrapper10 .button > a span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: -webkit-gradient(linear, left top, right top, from(transparent), to(#2B3990));
+  background: linear-gradient(90deg, transparent, #2B3990);
+  -webkit-animation: animate1 1s linear infinite;
+          animation: animate1 1s linear infinite;
+}
+
+@keyframes animate1 {
+  0% {
+    left: -100%;
+  }
+  50%, 100% {
+    left: 100%;
+  }
+}
+
+.wrapper10 .button > a span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#2B3990));
+  background: linear-gradient(180deg, transparent, #2B3990);
+  -webkit-animation: animate2 1s linear infinite;
+          animation: animate2 1s linear infinite;
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+}
+
+@keyframes animate2 {
+  0% {
+    top: -100%;
+  }
+  50%, 100% {
+    top: 100%;
+  }
+}
+
+.wrapper10 .button > a span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: -webkit-gradient(linear, right top, left top, from(transparent), to(#2B3990));
+  background: linear-gradient(270deg, transparent, #2B3990);
+  -webkit-animation: animate3 1s linear infinite;
+          animation: animate3 1s linear infinite;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+@keyframes animate3 {
+  0% {
+    right: -100%;
+  }
+  50%, 100% {
+    right: 100%;
+  }
+}
+
+.wrapper10 .button > a span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: -webkit-gradient(linear, left bottom, left top, from(transparent), to(#2B3990));
+  background: linear-gradient(360deg, transparent, #2B3990);
+  -webkit-animation: animate4 1s linear infinite;
+          animation: animate4 1s linear infinite;
+  -webkit-animation-delay: 0.75s;
+          animation-delay: 0.75s;
+}
+
+@keyframes animate4 {
+  0% {
+    bottom: -100%;
+  }
+  50%, 100% {
+    bottom: 100%;
+  }
+}
+
+/*End Neo Light Button*/
 .main-header {
   position: fixed;
   display: -webkit-box;
@@ -1543,3 +1822,4 @@ body {
 .container p {
   margin: 1rem 0;
 }
+/*# sourceMappingURL=about.css.map */
