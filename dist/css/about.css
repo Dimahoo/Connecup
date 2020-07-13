@@ -1070,6 +1070,19 @@
   margin-right: 20%;
 }
 
+@media screen and (max-width: 767px) {
+  .wrapper8 .para1 h1 {
+    margin-left: 10%;
+  }
+  .wrapper8 .para1 hr {
+    margin-left: 10%;
+  }
+  .wrapper8 .para1 .qsn {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
 /* wrapper 9*/
 .wrapper9 {
   min-height: 100%;
@@ -1081,8 +1094,8 @@
   display: grid;
   -ms-grid-columns: 50% 50%;
       grid-template-columns: 50% 50%;
-  -ms-grid-rows: 480px;
-      grid-template-rows: 480px;
+  -ms-grid-rows: 500px;
+      grid-template-rows: 500px;
 }
 
 .wrapper9 .para1 h2 {
@@ -1110,7 +1123,7 @@
   left: 30%;
   width: 200px;
   height: 200px;
-  margin-left: 30%;
+  margin-left: 29%;
 }
 
 .wrapper9 .para2 h2 {
@@ -1137,7 +1150,50 @@
   top: 10%;
   width: 200px;
   height: 200px;
-  margin-left: 20%;
+  margin-left: 18%;
+}
+
+@media screen and (max-width: 767px) {
+  .wrapper9 {
+    padding-top: 200px;
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    -ms-grid-rows: 500px;
+        grid-template-rows: 500px;
+  }
+  .wrapper9 .para1 h2 {
+    margin-top: 20px;
+    margin-left: 1%;
+  }
+  .wrapper9 .para1 p {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .wrapper9 .para1 .serv {
+    left: 17%;
+    width: 200px;
+    height: 200px;
+    margin-left: 10%;
+  }
+  .wrapper9 .para2 h2 {
+    margin-right: 2%;
+  }
+  .wrapper9 .para2 p {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .wrapper9 .para2 .serv {
+    width: 200px;
+    height: 200px;
+    margin-left: 25%;
+  }
 }
 
 /* wrapper 10*/
@@ -1822,4 +1878,3 @@ body {
 .container p {
   margin: 1rem 0;
 }
-/*# sourceMappingURL=about.css.map */
