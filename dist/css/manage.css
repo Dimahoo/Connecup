@@ -1372,7 +1372,7 @@
 }
 
 .wrapper10 .marge {
-  background-color: #2B3990;
+  background-color: #d7ede3;
 }
 
 .wrapper10 .para1 {
@@ -1563,8 +1563,8 @@
   background-attachment: fixed;
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: 420px;
-      grid-template-rows: 420px;
+  -ms-grid-rows: 450px;
+      grid-template-rows: 450px;
 }
 
 .wrapper11 .para1 h1 {
