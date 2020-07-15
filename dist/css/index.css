@@ -184,6 +184,190 @@
   }
 }
 
+.cadre {
+  background: rgba(0, 0, 100, 0.7);
+  height: 100vh;
+  width: 100vh;
+}
+
+.video-background {
+  background: #2b3990;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.welcome-msg {
+  position: relative;
+  text-align: left;
+  margin-left: 10%;
+  color: #ffffff;
+  top: 50%;
+}
+
+.cadre .button {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.cadre .button > a:hover {
+  color: white;
+  background: #2B3990;
+  /*box-shadow: 0 0 4px rgb(28, 10, 77), 0 0 34px rgb(28, 10, 77), 0 0 74px rgb(28, 10, 77);*/
+  -webkit-transition-delay: 0.25s;
+          transition-delay: 0.25s;
+}
+
+.cadre .button > a span {
+  position: absolute;
+  display: block;
+}
+
+.cadre .button > a span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: -webkit-gradient(linear, left top, right top, from(transparent), to(#2B3990));
+  background: linear-gradient(90deg, transparent, #2B3990);
+  -webkit-animation: animate1 1s linear infinite;
+          animation: animate1 1s linear infinite;
+}
+
+@-webkit-keyframes animate1 {
+  0% {
+    left: -100%;
+  }
+  50%, 100% {
+    left: 100%;
+  }
+}
+
+@keyframes animate1 {
+  0% {
+    left: -100%;
+  }
+  50%, 100% {
+    left: 100%;
+  }
+}
+
+.cadre .button > a span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#2B3990));
+  background: linear-gradient(180deg, transparent, #2B3990);
+  -webkit-animation: animate2 1s linear infinite;
+          animation: animate2 1s linear infinite;
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+}
+
+@-webkit-keyframes animate2 {
+  0% {
+    top: -100%;
+  }
+  50%, 100% {
+    top: 100%;
+  }
+}
+
+@keyframes animate2 {
+  0% {
+    top: -100%;
+  }
+  50%, 100% {
+    top: 100%;
+  }
+}
+
+.cadre .button > a span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: -webkit-gradient(linear, right top, left top, from(transparent), to(#2B3990));
+  background: linear-gradient(270deg, transparent, #2B3990);
+  -webkit-animation: animate3 1s linear infinite;
+          animation: animate3 1s linear infinite;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+@-webkit-keyframes animate3 {
+  0% {
+    right: -100%;
+  }
+  50%, 100% {
+    right: 100%;
+  }
+}
+
+@keyframes animate3 {
+  0% {
+    right: -100%;
+  }
+  50%, 100% {
+    right: 100%;
+  }
+}
+
+.cadre .button > a span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: -webkit-gradient(linear, left bottom, left top, from(transparent), to(#2B3990));
+  background: linear-gradient(360deg, transparent, #2B3990);
+  -webkit-animation: animate4 1s linear infinite;
+          animation: animate4 1s linear infinite;
+  -webkit-animation-delay: 0.75s;
+          animation-delay: 0.75s;
+}
+
+@-webkit-keyframes animate4 {
+  0% {
+    bottom: -100%;
+  }
+  50%, 100% {
+    bottom: 100%;
+  }
+}
+
+@keyframes animate4 {
+  0% {
+    bottom: -100%;
+  }
+  50%, 100% {
+    bottom: 100%;
+  }
+}
+
+@media (min-aspect-ratio: 16 / 9) {
+  .video-background {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-aspect-ratio: 16 / 9) {
+  .video-background {
+    width: auto;
+    height: 100%;
+  }
+}
+
 .wrapper3 {
   background-image: url("/dist/img/image7_2.jpg");
   display: -ms-grid;
@@ -423,15 +607,6 @@
           animation: animate1 1s linear infinite;
 }
 
-@-webkit-keyframes animate1 {
-  0% {
-    left: -100%;
-  }
-  50%, 100% {
-    left: 100%;
-  }
-}
-
 @keyframes animate1 {
   0% {
     left: -100%;
@@ -452,15 +627,6 @@
           animation: animate2 1s linear infinite;
   -webkit-animation-delay: 0.25s;
           animation-delay: 0.25s;
-}
-
-@-webkit-keyframes animate2 {
-  0% {
-    top: -100%;
-  }
-  50%, 100% {
-    top: 100%;
-  }
 }
 
 @keyframes animate2 {
@@ -485,15 +651,6 @@
           animation-delay: 0.5s;
 }
 
-@-webkit-keyframes animate3 {
-  0% {
-    right: -100%;
-  }
-  50%, 100% {
-    right: 100%;
-  }
-}
-
 @keyframes animate3 {
   0% {
     right: -100%;
@@ -514,15 +671,6 @@
           animation: animate4 1s linear infinite;
   -webkit-animation-delay: 0.75s;
           animation-delay: 0.75s;
-}
-
-@-webkit-keyframes animate4 {
-  0% {
-    bottom: -100%;
-  }
-  50%, 100% {
-    bottom: 100%;
-  }
 }
 
 @keyframes animate4 {
@@ -2174,4 +2322,3 @@ body {
 .container p {
   margin: 1rem 0;
 }
-/*# sourceMappingURL=index.css.map */
