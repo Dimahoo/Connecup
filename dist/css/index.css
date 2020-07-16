@@ -1605,9 +1605,8 @@
   display: inline;
   text-align: center;
   padding: 15px 30px;
-  margin-right: 10%;
   color: #2B3990;
-  background-color: #ddd;
+  background-color: #d7ede3;
   text-transform: uppercase;
   letter-spacing: 4px;
   text-decoration: none;
@@ -2322,3 +2321,4 @@ body {
 .container p {
   margin: 1rem 0;
 }
+/*# sourceMappingURL=index.css.map */
