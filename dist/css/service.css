@@ -1562,8 +1562,8 @@
   background-attachment: fixed;
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: 450px;
-      grid-template-rows: 450px;
+  -ms-grid-rows: 500px;
+      grid-template-rows: 500px;
 }
 
 .wrapper11 .para1 h1 {
@@ -1724,8 +1724,8 @@
   display: grid;
   -ms-grid-columns: 50% 50%;
       grid-template-columns: 50% 50%;
-  -ms-grid-rows: 650px;
-      grid-template-rows: 650px;
+  -ms-grid-rows: 700px;
+      grid-template-rows: 700px;
   background-color: #2B3990;
 }
 
@@ -1767,6 +1767,203 @@
   left: 25%;
   width: 500px;
   height: 500px;
+}
+
+/* wrapper 15*/
+.wrapper15 {
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 10% 40% 50%;
+      grid-template-columns: 10% 40% 50%;
+  -ms-grid-rows: 550px;
+      grid-template-rows: 550px;
+}
+
+.wrapper15 .marge {
+  background-color: #688a8b;
+}
+
+.wrapper15 .para1 {
+  background-color: #ddd;
+}
+
+.wrapper15 .para1 h1 {
+  margin-top: 50px;
+  text-align: left;
+  color: #2B3990;
+  font-weight: bold;
+  font-size: 50px;
+  margin-left: 20%;
+}
+
+.wrapper15 .para1 hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 3px solid #fffb02;
+  margin: 1em 0;
+  padding: 0;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.wrapper15 .para1 .qsn {
+  text-align: left;
+  color: #000000;
+  font-size: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.wrapper15 .para1 p {
+  text-align: center;
+  color: #ffffff;
+  font-size: 20px;
+  margin-right: 20%;
+}
+
+.wrapper15 .para1 .button > a {
+  position: relative;
+  display: inline;
+  text-align: center;
+  padding: 15px 30px;
+  color: #2B3990;
+  background-color: #d7ede3;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 20px;
+  overflow: hidden;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.wrapper15 .image {
+  background-color: #688a8b;
+}
+
+.wrapper15 .image .serv {
+  background-color: #2B3990;
+  position: relative;
+  top: 10%;
+  width: 400px;
+  height: 400px;
+  margin-left: 25%;
+}
+
+.wrapper15 .button {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrapper15 .button > a:hover {
+  color: white;
+  background: #2B3990;
+  /*box-shadow: 0 0 4px rgb(28, 10, 77), 0 0 34px rgb(28, 10, 77), 0 0 74px rgb(28, 10, 77);*/
+  -webkit-transition-delay: 0.25s;
+          transition-delay: 0.25s;
+}
+
+.wrapper15 .button > a span {
+  position: absolute;
+  display: block;
+}
+
+.wrapper15 .button > a span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: -webkit-gradient(linear, left top, right top, from(transparent), to(#2B3990));
+  background: linear-gradient(90deg, transparent, #2B3990);
+  -webkit-animation: animate1 1s linear infinite;
+          animation: animate1 1s linear infinite;
+}
+
+@keyframes animate1 {
+  0% {
+    left: -100%;
+  }
+  50%, 100% {
+    left: 100%;
+  }
+}
+
+.wrapper15 .button > a span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#2B3990));
+  background: linear-gradient(180deg, transparent, #2B3990);
+  -webkit-animation: animate2 1s linear infinite;
+          animation: animate2 1s linear infinite;
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+}
+
+@keyframes animate2 {
+  0% {
+    top: -100%;
+  }
+  50%, 100% {
+    top: 100%;
+  }
+}
+
+.wrapper15 .button > a span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: -webkit-gradient(linear, right top, left top, from(transparent), to(#2B3990));
+  background: linear-gradient(270deg, transparent, #2B3990);
+  -webkit-animation: animate3 1s linear infinite;
+          animation: animate3 1s linear infinite;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+@keyframes animate3 {
+  0% {
+    right: -100%;
+  }
+  50%, 100% {
+    right: 100%;
+  }
+}
+
+.wrapper15 .button > a span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: -webkit-gradient(linear, left bottom, left top, from(transparent), to(#2B3990));
+  background: linear-gradient(360deg, transparent, #2B3990);
+  -webkit-animation: animate4 1s linear infinite;
+          animation: animate4 1s linear infinite;
+  -webkit-animation-delay: 0.75s;
+          animation-delay: 0.75s;
+}
+
+@keyframes animate4 {
+  0% {
+    bottom: -100%;
+  }
+  50%, 100% {
+    bottom: 100%;
+  }
 }
 
 .main-header {
@@ -2302,4 +2499,3 @@ body {
 .container p {
   margin: 1rem 0;
 }
-/*# sourceMappingURL=service.css.map */
