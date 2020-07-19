@@ -146,3 +146,144 @@
   }
 }
 /*End Neo Light Button*/
+
+@media screen and (max-width: 767px) {
+
+    .cadre{
+      background: rgba(0,0,100,0.7);
+      height: 65vh;
+      width: 100vh;
+    }
+    
+    .cadre .video-background{
+      background: rgba($color: #2B3990, $alpha: 1.0);
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
+    
+    .cadre .welcome-msg{
+      position: relative;
+      text-align: left;
+      margin-left: 10%;
+      margin-right: 50%;
+      color: #ffffff;
+      top: 20%;
+      font-size: 5px;
+    }
+    
+    /*Neo Light Button*/
+    .cadre .button > a {
+      position: relative;
+      display: inline;
+      text-align: center;
+      padding: 15px 30px;
+      color: #ffffff;
+      background-color: #2B3990;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      text-decoration: none;
+      font-size: 20px;
+      overflow: hidden;
+      transition: 0.2s;
+      margin-left: 3%;
+      margin-right: 50%;
+    }
+    .cadre .button{
+      margin: 0;
+      padding:0;
+      display: flex;
+      justify-content: center;
+      margin-top: 15%;
+    }
+    .cadre .button > a:hover {
+      color:#2B3990;
+      background: #ffffff;
+      /*box-shadow: 0 0 4px rgb(28, 10, 77), 0 0 34px rgb(28, 10, 77), 0 0 74px rgb(28, 10, 77);*/
+      transition-delay: 0.25s;
+    }
+    .cadre .button > a span{
+      position:absolute;
+      display: block;
+    }
+    .cadre .button > a span:nth-child(1){
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 2px;
+      background: linear-gradient(90deg,transparent,#ffffff);
+      animation: animate1 1s linear infinite;
+    }
+    @keyframes animate1
+    {
+      0%{
+          left: -100%;
+      }
+      50%, 100%{
+          left: 100%;
+      }
+    }
+    
+    .cadre .button > a span:nth-child(2){
+      top: -100%;
+      right: 0;
+      width: 2px;
+      height: 100%;
+      background: linear-gradient(180deg,transparent,#ffffff);
+      animation: animate2 1s linear infinite;
+      animation-delay: 0.25s;
+    }
+    @keyframes animate2
+    {
+      0%{
+          top: -100%;
+      }
+      50%, 100%{
+          top: 100%;
+      }
+    }
+    
+    
+    .cadre .button > a span:nth-child(3){
+      bottom: 0;
+      right: -100%;
+      width: 100%;
+      height: 2px;
+      background: linear-gradient(270deg,transparent,#ffffff);
+      animation: animate3 1s linear infinite;
+      animation-delay: 0.5s;
+    }
+    @keyframes animate3
+    {
+      0%{
+          right: -100%;
+      }
+      50%, 100%{
+          right: 100%;
+      }
+    }
+    
+    
+    .cadre .button > a span:nth-child(4){
+      bottom: -100%;
+      left: 0;
+      width: 2px;
+      height: 100%;
+      background: linear-gradient(360deg,transparent,#ffffff);
+      animation: animate4 1s linear infinite;
+      animation-delay: 0.75s;
+    }
+    @keyframes animate4
+    {
+      0%{
+          bottom: -100%;
+      }
+      50%, 100%{
+          bottom: 100%;
+      }
+    }
+    /*End Neo Light Button*/
+}
