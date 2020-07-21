@@ -25,6 +25,20 @@
   text-transform: uppercase;
 }
 
+.main-header .nav-links #service {
+  display: none;
+}
+
+.main-header .nav-links .arrow {
+  display: none;
+  width: 25px;
+  height: 25px;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
 .main-header .logo img {
   position: relative;
   padding-top: 6px;
@@ -58,15 +72,33 @@
   margin-top: initial;
 }
 
-@media screen and (max-width: 767px) {
-  .main-header .collabse-nav-link {
-    text-align: center;
-    font-size: 25px;
+@media screen and (min-width: 767px) {
+  .main-header .nav-links .nav-link:hover .collabse-nav-link {
+    display: block;
   }
 }
 
-.main-header .nav-links .nav-link:hover .collabse-nav-link {
-  display: block;
+@media screen and (max-width: 767px) {
+  .main-header .nav-links .arrow {
+    display: inline;
+  }
+  .main-header .nav-links #arr_down {
+    display: none;
+  }
+  .main-header .collabse-nav-link {
+    text-align: left;
+    font-size: 25px;
+    margin-left: 10%;
+  }
+  .main-header #service:checked ~ .nav-link .collabse-nav-link {
+    display: block;
+  }
+  .main-header #service:checked ~ .nav-link .arrow {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+  }
 }
 
 .main-header .collabse-nav-link li:hover {
@@ -112,6 +144,7 @@
 .main-header .nav-links .nav-link a {
   margin: .2rem;
   padding: 0.5rem .4rem;
+  text-align: left;
 }
 
 .main-header .nav-links .nav-link a:not(.sub):hover {
@@ -3430,3 +3463,4 @@ body {
   position: relative;
   height: 699px;
 }
+/*# sourceMappingURL=contact.css.map */
