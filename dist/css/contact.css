@@ -1294,12 +1294,12 @@
   .wrapper9 .para1 p {
     margin-left: 10%;
     margin-right: 10%;
+    height: 250px;
   }
   .wrapper9 .para1 .serv {
-    left: 17%;
+    left: 26%;
     width: 200px;
     height: 200px;
-    margin-left: 15%;
   }
   .wrapper9 .para1 .button > a {
     margin-right: 20px;
@@ -1312,8 +1312,10 @@
   .wrapper9 .para2 p {
     margin-left: 10%;
     margin-right: 10%;
+    height: 250px;
   }
   .wrapper9 .para2 .serv {
+    left: 25%;
     margin-top: 10%;
     width: 200px;
     height: 200px;
@@ -1533,8 +1535,8 @@
     display: grid;
     -ms-grid-columns: 100%;
         grid-template-columns: 100%;
-    -ms-grid-rows: 400px;
-        grid-template-rows: 400px;
+    -ms-grid-rows: 450px;
+        grid-template-rows: 450px;
   }
   .wrapper10 .marge {
     display: none;
@@ -1653,8 +1655,8 @@
     background-attachment: fixed;
     display: -ms-grid;
     display: grid;
-    -ms-grid-rows: 650px;
-        grid-template-rows: 650px;
+    -ms-grid-rows: 700px;
+        grid-template-rows: 700px;
   }
   .wrapper11 .para1 h1 {
     margin-top: 70px;
@@ -1747,8 +1749,8 @@
     display: grid;
     -ms-grid-columns: 50% 50%;
         grid-template-columns: 50% 50%;
-    -ms-grid-rows: 700px;
-        grid-template-rows: 700px;
+    -ms-grid-rows: 850px;
+        grid-template-rows: 850px;
     background-color: #2B3990;
   }
   .wrapper12 .para1 h1 {
@@ -1756,11 +1758,11 @@
     text-align: left;
     color: #ffffff;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
     text-transform: uppercase;
     padding-bottom: 5%;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 25%;
   }
   .wrapper12 .para1 hr {
     align: center;
@@ -1783,7 +1785,7 @@
     position: relative;
     top: 35%;
     left: 10%;
-    width: 250px;
+    width: 220px;
     height: 200px;
   }
 }
@@ -1839,9 +1841,9 @@
 .wrapper13 .para2 .target {
   position: relative;
   top: 10%;
-  left: 30%;
-  width: 400px;
-  height: 400px;
+  left: 15%;
+  width: 300px;
+  height: 300px;
 }
 
 @media screen and (max-width: 767px) {
@@ -1856,8 +1858,8 @@
     display: grid;
     -ms-grid-columns: 50% 50%;
         grid-template-columns: 50% 50%;
-    -ms-grid-rows: 700px;
-        grid-template-rows: 700px;
+    -ms-grid-rows: 750px;
+        grid-template-rows: 750px;
     background-color: #ffffff;
   }
   .wrapper13 .para1 h1 {
@@ -1891,7 +1893,7 @@
   .wrapper13 .para2 .target {
     position: relative;
     top: 35%;
-    left: 25%;
+    left: 5%;
     width: 200px;
     height: 200px;
   }
@@ -1965,8 +1967,8 @@
     display: grid;
     -ms-grid-columns: 50% 50%;
         grid-template-columns: 50% 50%;
-    -ms-grid-rows: 1000px;
-        grid-template-rows: 1000px;
+    -ms-grid-rows: 1300px;
+        grid-template-rows: 1300px;
     background-color: #2B3990;
   }
   .wrapper14 .para1 h1 {
@@ -2001,8 +2003,8 @@
     position: relative;
     top: 35%;
     left: 5%;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
   }
 }
 
@@ -2215,8 +2217,8 @@
     display: grid;
     -ms-grid-columns: 100%;
         grid-template-columns: 100%;
-    -ms-grid-rows: 450px;
-        grid-template-rows: 450px;
+    -ms-grid-rows: 500px;
+        grid-template-rows: 500px;
   }
   .wrapper15 .marge {
     display: none;
@@ -2539,8 +2541,8 @@
     display: grid;
     -ms-grid-columns: 50% 50%;
         grid-template-columns: 50% 50%;
-    -ms-grid-rows: 250px;
-        grid-template-rows: 250px;
+    -ms-grid-rows: 350px;
+        grid-template-rows: 350px;
   }
   .wrapper17 .margeleft {
     display: none;
@@ -2662,8 +2664,8 @@
     display: grid;
     -ms-grid-columns: 50% 50%;
         grid-template-columns: 50% 50%;
-    -ms-grid-rows: 750px;
-        grid-template-rows: 750px;
+    -ms-grid-rows: 900px;
+        grid-template-rows: 900px;
     background-color: #2B3990;
   }
   .wrapper18 .para1 h1 {
@@ -2698,8 +2700,8 @@
     position: relative;
     top: 25%;
     left: 5%;
-    width: 280px;
-    height: 280px;
+    width: 230px;
+    height: 250px;
   }
 }
 
@@ -2763,8 +2765,8 @@
     background-attachment: fixed;
     display: -ms-grid;
     display: grid;
-    -ms-grid-rows: 450px;
-        grid-template-rows: 450px;
+    -ms-grid-rows: 550px;
+        grid-template-rows: 550px;
   }
   .wrapper19 .para1 h1 {
     margin-top: 70px;
@@ -2871,8 +2873,8 @@
     display: grid;
     -ms-grid-columns: 50% 50%;
         grid-template-columns: 50% 50%;
-    -ms-grid-rows: 450px;
-        grid-template-rows: 450px;
+    -ms-grid-rows: 550px;
+        grid-template-rows: 550px;
   }
   .wrapper20 .margeleft {
     display: none;
@@ -3428,4 +3430,3 @@ body {
   position: relative;
   height: 699px;
 }
-/*# sourceMappingURL=contact.css.map */
