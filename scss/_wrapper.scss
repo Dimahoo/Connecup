@@ -671,6 +671,9 @@
     .wrapper7{
         display:grid;
         grid-template-columns: repeat(1, 1fr );
+        h1{
+            font-size: 25px;
+        }
     }
 }
 
@@ -756,6 +759,7 @@
         font-weight: bold;
         font-size: 30px;
         text-transform: uppercase;
+        height: 50px;
     }
     p{
         padding-top: 2%;
@@ -764,7 +768,7 @@
         font-size: 20px;
         margin-left: 5%;
         margin-right: 5%;
-        height: 200px;
+        height: 250px;
 
     }
     .serv{
@@ -798,6 +802,7 @@
         font-weight: bold;
         font-size: 30px;
         text-transform: uppercase;
+        height: 50px;
     }
     p{
         padding-top: 2%;
@@ -806,7 +811,7 @@
         font-size: 20px;
         margin-left: 5%;
         margin-right: 5%;
-        height: 200px;
+        height: 250px;
     }
     .serv{
         position: relative;
@@ -996,7 +1001,7 @@
     background-attachment: fixed;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 650px;
+    grid-template-rows: 700px;
 }
 
 .wrapper9-2 .para1{
@@ -1007,6 +1012,7 @@
         font-weight: bold;
         font-size: 30px;
         text-transform: uppercase;
+        height: 100px;
     }
     p{
         padding-top: 2%;
@@ -1015,7 +1021,7 @@
         font-size: 20px;
         margin-left: 5%;
         margin-right: 5%;
-        height: 200px;
+        height: 250px;
 
     }
     .serv{
@@ -1049,6 +1055,7 @@
         font-weight: bold;
         font-size: 30px;
         text-transform: uppercase;
+        height: 100px;
     }
     p{
         padding-top: 2%;
@@ -1057,7 +1064,7 @@
         font-size: 20px;
         margin-left: 5%;
         margin-right: 5%;
-        height: 200px;
+        height: 250px;
     }
     .serv{
         position: relative;
