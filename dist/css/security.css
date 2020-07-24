@@ -545,7 +545,7 @@
 
 /* wrapper 3*/
 .wrapper3 {
-  background-image: url("/dist/img/About_us_wallpaper_3.jpg");
+  background: #2B3990;
   min-height: 100%;
   background-position: center;
   background-size: cover;
@@ -597,7 +597,7 @@
 
 @media screen and (max-width: 767px) {
   .wrapper3 {
-    background-image: url("/dist/img/About_us_wallpaper_3.jpg");
+    background: #2B3990;
     min-height: 100%;
     background-position: center;
     background-size: cover;
@@ -767,7 +767,7 @@
 
 /* wrapper 5*/
 .wrapper5 {
-  background-image: url("/dist/img/About_us_wallpaper_3.jpg");
+  background: #2B3990;
   min-height: 100%;
   background-position: center;
   background-size: cover;
@@ -820,7 +820,7 @@
 
 @media screen and (max-width: 767px) {
   .wrapper5 {
-    background-image: url("/dist/img/About_us_wallpaper_3.jpg");
+    background: #2B3990;
     min-height: 100%;
     background-position: center;
     background-size: cover;
@@ -868,7 +868,7 @@
 
 /* wrapper 6*/
 .wrapper6 {
-  background-image: url("/dist/img/About_us_wallpaper_3.jpg");
+  background: #2B3990;
   min-height: 100%;
   background-position: center;
   background-size: cover;
@@ -922,7 +922,7 @@
 
 @media screen and (max-width: 767px) {
   .wrapper6 {
-    background-image: url("/dist/img/About_us_wallpaper_3.jpg");
+    background: #2B3990;
     min-height: 100%;
     background-position: center;
     background-size: cover;
