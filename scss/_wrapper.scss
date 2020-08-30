@@ -200,6 +200,10 @@
 
 @media screen and (max-width: 767px) {
 
+    .wrapper2{
+        grid-template-rows: 800px;
+    }
+
     .wrapper2 .para1{
         h1{
             text-align: left;
@@ -216,7 +220,8 @@
             text-align: left;
             padding-top: 10%;
             padding-bottom: 5%;
-            color: rgb(0, 0, 0); 
+            color: rgb(0, 0, 0);
+            font-size: 20px;
         }
     }
 
@@ -1547,7 +1552,7 @@
         background-repeat: no-repeat;
         background-attachment: fixed;
         display:grid;
-        grid-template-rows: 700px;
+        grid-template-rows: 500px;
     }
     .wrapper11 .para1{
         h1{
@@ -1636,7 +1641,7 @@
         background-attachment: fixed;
         display:grid;
         grid-template-columns: 50% 50%;
-        grid-template-rows: 850px;
+        grid-template-rows: 1100px;
         background-color: #2B3990;
     }
         
@@ -1742,7 +1747,7 @@
         background-attachment: fixed;
         display:grid;
         grid-template-columns: 50% 50%;
-        grid-template-rows: 750px;
+        grid-template-rows: 800px;
         background-color: #ffffff;
     }
         
@@ -1848,7 +1853,7 @@
         background-attachment: fixed;
         display:grid;
         grid-template-columns: 50% 50%;
-        grid-template-rows: 1300px;
+        grid-template-rows: 900px;
         background-color: #2B3990;
     }
         
@@ -2288,7 +2293,7 @@
     background-attachment: fixed;
     display:grid;
     grid-template-columns: 25% 25% 35% 10%;
-    grid-template-rows: 200px;
+    grid-template-rows: 300px;
     .para1 ul{
         font-size: 20px;
         font-weight: bold;

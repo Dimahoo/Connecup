@@ -854,6 +854,10 @@
 }
 
 @media screen and (max-width: 767px) {
+  .wrapper2 {
+    -ms-grid-rows: 800px;
+        grid-template-rows: 800px;
+  }
   .wrapper2 .para1 h1 {
     text-align: left;
     color: #2B3990;
@@ -870,6 +874,7 @@
     padding-top: 10%;
     padding-bottom: 5%;
     color: black;
+    font-size: 20px;
   }
   .wrapper2 .button > a {
     position: relative;
@@ -2317,8 +2322,8 @@
     background-attachment: fixed;
     display: -ms-grid;
     display: grid;
-    -ms-grid-rows: 700px;
-        grid-template-rows: 700px;
+    -ms-grid-rows: 500px;
+        grid-template-rows: 500px;
   }
   .wrapper11 .para1 h1 {
     margin-top: 70px;
@@ -2411,8 +2416,8 @@
     display: grid;
     -ms-grid-columns: 50% 50%;
         grid-template-columns: 50% 50%;
-    -ms-grid-rows: 850px;
-        grid-template-rows: 850px;
+    -ms-grid-rows: 1100px;
+        grid-template-rows: 1100px;
     background-color: #2B3990;
   }
   .wrapper12 .para1 h1 {
@@ -2520,8 +2525,8 @@
     display: grid;
     -ms-grid-columns: 50% 50%;
         grid-template-columns: 50% 50%;
-    -ms-grid-rows: 750px;
-        grid-template-rows: 750px;
+    -ms-grid-rows: 800px;
+        grid-template-rows: 800px;
     background-color: #ffffff;
   }
   .wrapper13 .para1 h1 {
@@ -2629,8 +2634,8 @@
     display: grid;
     -ms-grid-columns: 50% 50%;
         grid-template-columns: 50% 50%;
-    -ms-grid-rows: 1300px;
-        grid-template-rows: 1300px;
+    -ms-grid-rows: 900px;
+        grid-template-rows: 900px;
     background-color: #2B3990;
   }
   .wrapper14 .para1 h1 {
@@ -3135,8 +3140,8 @@
   display: grid;
   -ms-grid-columns: 25% 25% 35% 10%;
       grid-template-columns: 25% 25% 35% 10%;
-  -ms-grid-rows: 200px;
-      grid-template-rows: 200px;
+  -ms-grid-rows: 300px;
+      grid-template-rows: 300px;
 }
 
 .wrapper17 .para1 ul {
